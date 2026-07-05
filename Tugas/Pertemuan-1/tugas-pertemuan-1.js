@@ -5,3 +5,16 @@ const mahasiswa = {
     semester: 4,
     nilai: [85, 90, 78, 88]
 };
+
+const {nama, nim, prodi, semester, nilai} = mahasiswa;
+
+const rataRata = (nilai) => {
+    let total = 0;
+
+    for (let n of nilai){
+        total += n;
+    }
+
+    return total / nilai.length;
+}
+
