@@ -37,3 +37,15 @@ const totalNilai = (...angka) => {
     return total;
 }
 
+const nilaiRataRata = rataRata(nilai);
+const totalNilaiMahasiswa = totalNilai(...nilai);
+
+console.log(`
+    ====  Data Lengkap Mahasiswa  ====
+    Nama Mahasiswa  : ${nama}
+    Nim             : ${nim}
+    Prodi           : ${prodi}
+    Semester        : ${semester}
+    Status          : $ {dataLengkapMhs.status}
+    Nilai Rata-Rata : ${nilaiRataRata}
+    Total Nilai     : ${totalNilaiMahasiswa}`);
