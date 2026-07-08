@@ -40,12 +40,13 @@ const totalNilai = (...angka) => {
 const nilaiRataRata = rataRata(nilai);
 const totalNilaiMahasiswa = totalNilai(...nilai);
 
+//menggunakan template literals 
 console.log(`
     ====  Data Lengkap Mahasiswa  ====
     Nama Mahasiswa  : ${nama}
     Nim             : ${nim}
     Prodi           : ${prodi}
     Semester        : ${semester}
-    Status          : $ {dataLengkapMhs.status}
+    Status          : ${dataLengkapMhs.status}
     Nilai Rata-Rata : ${nilaiRataRata}
     Total Nilai     : ${totalNilaiMahasiswa}`);
