@@ -1,0 +1,19 @@
+.job-list{
+    padding:4rem 2rem;
+    background:linear-gradient(to bottom,#FFF2E1,#EAD8C0);
+  }
+  
+  .job-list h2{
+    text-align:center;
+    color:#A79277;
+    font-size:2.4rem;
+    margin-bottom:3rem;
+  }
+  
+  .jobs-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:2rem;
+  }
